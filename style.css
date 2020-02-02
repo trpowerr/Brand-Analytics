@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #0f2135;
+    height: 100px;
+}
+
+.header_logo {
+    width: 140px;
+    height: 54px;
+    margin-left: 50px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-right: auto;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.topnav {
+    
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 41px;
+}
+
+.topnav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 19px;
+}
+
+.our_compani {
+    height: 438px;
+    background-image: url(./img/wpapers-ru-white-and-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0f2135;
+    padding-top: 109px;
+    padding-bottom: 33px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0f2135;
+    padding-bottom: 31px;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 95px;
+}
+button {
+    width: 225px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #e43898;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f4f5;
+}
+
+.heading_cases {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 73px;
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+h3 {
+    font-size: 30px;
+}
+
+.news {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.news_box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 91%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 55px;
+    margin-bottom: 79px;
+}
+.background img {
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.date {
+    font-size: 14px;
+    color: #7f8d9c;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 11px;
+}
+.heading_news_box {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 12px;
+}
+.news_box p {
+    font-size: 14px;
+    color: #0f2135;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.line {
+    margin-top: auto;
+}
+.reading {
+    display: flex;
+}
+
+.reading span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7f8d9c;
+    margin-top: 17px;
+    margin-left: 22px;
+    margin-right: auto;
+    margin-bottom: 22px;
+}
+.arrow svg {
+    color: #7f8d9c;
+    width: 39px;
+    height: 11px;
+    margin-top: 19px;
+    margin-right: 25px;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+}
+.words {
+    width: 50%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.words h4 {
+    font-size: 22px;
+    font-weight: 100;
+    color: #0f2135;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-bottom: 65px;
+    margin-right: 119px;
+    line-height: 1.45;
+}
+.words p {
+    font-size: 14px;
+    color: #7f8d9c;
+    margin-left: 100px;
+    margin-bottom: 116px;
+}
+
+.email {
+    border: solid 1px;
+    height: 44px;
+    width: 77%;
+    border-radius: 8px;
+    margin-top: 82px;
+    margin-bottom: 27px;
+    margin-right: 100px;
+}
+
+.consent {
+    display: flex;
+}
+
+.checkbox {
+    margin-right: 15px;
+}
+
+.consent p {
+    font-size: 16px;
+    color: #0f2135;
+}
+
+.buttons {
+    margin-top: 32px;
+    margin-bottom: 105px;
+}
+
+.but_one {
+    width: 183px;
+    margin-right: 17px;
+}
+
+.but_two {
+    border-style: solid;
+    width: 137px;   
+    color: #e43898;
+    border-color: #e43898;
+    background-color: #fff;
+}
+
+@media (min-width: 401px) and (max-width: 1000px) {
+    .words h4 {
+        margin-right: 30px;
+        margin-bottom: 33px;
+    }
+    .words p {
+        margin-right: 30px;
+    }
+    .email {
+        width: 68%;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        height: 70px;
+    }
+    .header_logo  {
+        width: 0px;
+        height: 0px;
+        margin-left: 30px;
+        margin-top: 13px;
+        margin-bottom: 15px;
+        margin-right: auto;
+    }
+    .header_logo svg {
+        height: 42px;
+    }
+    .our_compani {
+        height: 425px;
+        background-image: url(/brand_project/img/wpapers-ru-white-and-blue@3x.png);
+    }
+    h1 {
+        font-size: 32px;
+        padding-top: 90px;
+        padding-bottom: 29px;
+    }
+    h2 {
+        font-size: 18px;
+        padding-bottom: 65px;
+    }
+    .button {
+        padding-bottom: 65px;
+    }
+    .heading_cases {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 73px;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+    .news_box {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 30%;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .words {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+        justify-content: center;
+    }
+    .words h4 {
+        margin-top: 45px;
+        margin-left: 30px;
+        margin-bottom: 19px;
+        margin-right: 30px;
+        line-height: 1.43;
+    }
+    .words p {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 29px;
+    }
+    .email {
+        border: solid 1px;
+        height: 44px;
+        width: 85%;
+        border-radius: 8px;
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 27px;
+        margin-right: 0px;
+    }
+    .consent {
+        margin-left: 30px;
+    }
+    .buttons {
+        margin-top: 32px;
+        margin-left: 30px;
+        margin-bottom: 94px;
+    }
+    .but_one {
+        font-size: 16px;
+    }
+    .but_two {
+        font-size: 16px;
+    }
+}
